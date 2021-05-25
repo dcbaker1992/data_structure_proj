@@ -11,6 +11,9 @@ def one_part_a(tupil):
 
 
 places = {'Tempe', 'Dallas', 'Scottsdale', 'Saudi Arabia', 'Iraq'}
+print(places)
+places.add('Cabo')
+places.update(['San Diego', 'Las Vegas'])
 
 
 def one_part_b(set):
